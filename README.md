@@ -1,0 +1,2 @@
+# aposteriori-1
+FEM. Test some aposteriori estimates for elliptic PDEs. At first 2d heat conduction, may be 3d and linear elasticity later. Use discontinuous fields exactly eqilibrated on each element. Inspired by publications of S.I.Repin and V.G.Korneev. I try to combine explicit residual method, implicit residual method, Repin-type estimates, and Korneev-type estimates on elements only. Also try to accurately calculate constants in Clement-type interpolation operator (as they are used in the explicit-residual methods).
